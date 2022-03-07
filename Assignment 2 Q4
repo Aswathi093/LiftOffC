@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+    printf("enter N");
+    int n;
+    scanf("%d",&n);
+    int i=0,j=1,k=0;
+    printf("%d \n",i);
+    printf("%d \n",j);
+    for(int l=1;l<=n-2;l++)
+    {
+    
+    k=i+j;
+    
+    printf("%d \n",k);
+    i=j;
+    j=k;
+    }
+    return 0;
+}
